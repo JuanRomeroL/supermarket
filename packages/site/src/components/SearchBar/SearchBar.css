@@ -1,0 +1,8 @@
+.search-bar {
+  height: 10vh;
+  overflow: hidden;
+}
+
+.search-bar > input {
+  margin: 15px;
+}
