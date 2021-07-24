@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import ReactPaginate from "react-paginate";
+//import ReactPaginate from "react-paginate";
 import "./Pagination.css";
 
 class Pagination extends Component {
   render() {
     return (
       <div className='pagination'>
-        <ReactPaginate
+        {/* <ReactPaginate
           pageCount={150}
           pageRangeDisplayed={5}
           marginPagesDisplayed={2}
-        />
+        /> */}
       </div>
     );
   }

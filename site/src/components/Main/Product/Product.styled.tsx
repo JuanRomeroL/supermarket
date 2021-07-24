@@ -4,13 +4,13 @@ import Product from "./Product";
 const StyledProduct = styled(Product)`
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 4px;
+  font-family: Arial;
+  font-size: 12px;
   margin: 10px;
   padding: 10px;
   text-align: center;
   width: 230px;
-  height: 360px;
-  font-family: Arial;
-  font-size: 12px;
+  height: 334px;
 
   :hover {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
@@ -63,7 +63,7 @@ const StyledProduct = styled(Product)`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 6px 0;
+    padding: 6px 0 0;
   }
 
   > .product-tools > .add-chart-button:hover {

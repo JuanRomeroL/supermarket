@@ -2,12 +2,19 @@ body {
   margin: 0;
 }
 
-.results-list {
+.area {
+  height: 80vh;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.product-list {
+  width: calc(100% - 200px);
+  height: 80vh;
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
   justify-content: center;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 ::-webkit-scrollbar {

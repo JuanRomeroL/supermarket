@@ -1,6 +1,6 @@
 .pagination {
   overflow: hidden;
-  height: 10vh;
+  height: 15vh;
 }
 
 .pagination > ul {
@@ -17,10 +17,4 @@
   padding: 6px;
   margin: 0;
   background-color: rgb(116, 169, 185);
-}
-
-@media (max-width: 319px), (max-height: 439px) {
-  .pagination {
-    visibility: hidden;
-  }
 }
